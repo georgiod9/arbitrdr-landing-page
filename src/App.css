@@ -1,6 +1,442 @@
 .App {
   text-align: center;
+  background-image: url('./assets/bg.png');
+  background-position: top;
+  background-size: 100% 100%;
+
+  width: 100%;
+
 }
+
+@media (max-width: 2560px) {
+  .App {
+    height: 4080px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .App {
+    height: 3400px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .App {
+    height: 2700px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .App {
+    height: 2300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    height: 1800px;
+  }
+}
+
+@media (max-width: 425px) {
+  .App {
+    height: 1300px;
+  }
+
+  .logo-div {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 426px) {
+  .logo-div {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+  }
+}
+
+
+
+
+@media (min-width: 768px) {
+  .logo {
+    width: 17vw;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 60vw;
+    height: auto;
+  }
+}
+
+.logo-div {
+  width: max-content;
+  margin: auto auto;
+  
+}
+
+
+.monitor {
+  width: 35vw;
+  height: auto;
+}
+
+.section1-text {
+  width: 35vw;
+  height: auto;
+}
+.loading-sizing {
+  width: 7vw;
+  height: auto;
+}
+.percent-sizing {
+  width: 2.5vw;
+  height: auto;
+}
+.percent-positioning {
+  top: 41%;
+  left: 28%;
+}
+.comingsoon-sizing {
+  width: 16vw;
+  height: auto;
+  padding-left: 1rem;
+
+}
+
+@media (max-width: 1024px) {
+  .monitor {
+    width: 35vw;
+    height: auto;
+  }
+  
+  .section1-text {
+    width: 35vw;
+    height: auto;
+  }
+  .loading-sizing {
+    width: 7vw;
+    height: auto;
+  }
+  .percent-sizing {
+    width: 2.5vw;
+    height: auto;
+  }
+  .percent-positioning {
+    top: 41%;
+    left: 28%;
+  }
+  .comingsoon-sizing {
+    width: 16vw;
+    height: auto;
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .monitor {
+    width: 45vw;
+    height: auto;
+  }
+  .section1-text {
+    width: 45vw;
+    height: auto;
+  }
+  .loading-sizing {
+    width: 14vw;
+    height: auto;
+  }
+  .percent-sizing {
+    width: 6vw;
+    height: auto;
+  }
+  .percent-positioning {
+    top: 39%;
+    left: 24%;
+  }
+  .comingsoon-sizing {
+    width: 28vw;
+    height: auto;
+    padding-left: 0.5rem;
+
+  }
+}
+
+
+.section2-text-sizing {
+  width: 72vw;
+  height: auto;
+
+  margin-top: 9rem;
+}
+
+@media (max-width: 1440px) {
+  .section2-text-sizing {
+    width: 72vw;
+    height: auto;
+  
+    margin-top: 8rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section2-text-sizing {
+    width: 92vw;
+    height: auto;
+  
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section2-text-sizing {
+    width: 90vw;
+    height: auto;
+  
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .section2-text-sizing {
+    width: 97vw;
+    height: auto;
+  
+    margin-top: 4rem;
+  }
+}
+
+.section3-image-sizing {
+  width: 90vw;
+  margin-top: 9rem;
+}
+
+.section3-text-sizing {
+  width: 45vw;
+}
+.section3-text-positioning {
+  left: 10%;
+}
+
+
+.section3-chart-sizing {
+  width: 30vw;
+}
+.section3-chart-positioning {
+  left: 60%;
+}
+
+@media (max-width: 2560px) {
+  .section3-image-sizing {
+    width: 80vw;
+    margin-top: 6rem;
+  }
+
+  .section3-text-sizing {
+    width: 40vw;
+  }
+  .section3-text-positioning {
+    left: 15%;
+  }
+
+  .section3-chart-sizing {
+    width: 27vw;
+  }
+  .section3-chart-positioning {
+    left: 70%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .section3-image-sizing {
+    width: 90vw;
+    margin-top: 8rem;
+  }
+
+  .section3-text-sizing {
+    width: 45vw;
+  }
+  .section3-text-positioning {
+    left: 10%;
+  }
+
+  .section3-chart-sizing {
+    width: 35vw;
+  }
+  .section3-chart-positioning {
+    left: 60%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section3-image-sizing {
+    width: 100vw;
+    margin-top: 6rem;
+  }
+
+  .section3-text-sizing {
+    width: 60vw;
+  }
+  .section3-text-positioning {
+    left: 7%;
+  }
+
+  .section3-chart-sizing {
+    width: 35vw;
+  }
+  .section3-chart-positioning {
+    left: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  .section3-image-sizing {
+    width: 100vw;
+    margin-top: 5rem;
+  }
+
+  .section3-text-sizing {
+    width: 75vw;
+  }
+  .section3-text-positioning {
+    left: 5%;
+  }
+
+  .section3-chart-sizing {
+    width: 35vw;
+  }
+  .section3-chart-positioning {
+    left: 70%;
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .section3-image-sizing {
+    width: 100vw;
+    margin-top: 4rem;
+  }
+
+  .section3-text-sizing {
+    width: 95vw;
+  }
+  .section3-text-positioning {
+    left: 5%;
+    margin-top: 1rem;
+  }
+
+  .section3-chart-sizing {
+    width: 40vw;
+  }
+  .section3-chart-positioning {
+    left: 60%;
+    margin-top: 8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .section3-image-sizing {
+    width: 100vw;
+    margin-top: 6rem;
+  }
+
+  .section3-text-sizing {
+    width: 95vw;
+  }
+  .section3-text-positioning {
+    left: 5%;
+    margin-top: 1rem;
+  }
+
+  .section3-chart-sizing {
+    width: 45vw;
+  }
+  .section3-chart-positioning {
+    left: 55%;
+    margin-top: 9rem;
+  }
+}
+
+@media (max-width: 2560px) {
+  .section4-text-sizing {
+    width: 30vw;
+    height: auto;
+  }
+  .section4-text-positioning {
+    margin-top: 45rem;
+    margin-left: 12rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .section4-text-sizing {
+    width: 40vw;
+    height: auto;
+  }
+  .section4-text-positioning {
+    margin-top: 28rem;
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section4-text-sizing {
+    width: 45vw;
+    height: auto;
+  }
+  .section4-text-positioning {
+    margin-top: 27rem;
+    margin-left: 3rem;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .section4-text-sizing {
+    width: 50vw;
+    height: auto;
+  }
+  .section4-text-positioning {
+    margin-top: 22rem;
+    margin-left: 3rem;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .section4-text-sizing {
+    width: 50vw;
+    height: auto;
+  }
+  .section4-text-positioning {
+    margin-top: 22rem;
+    margin-left: 3rem;
+  }
+  
+}
+
+@media (max-width: 425px) {
+  .section4-text-sizing {
+    width: 60vw;
+    height: auto;
+  }
+  .section4-text-positioning {
+    margin-top: 20rem;
+    margin-left: 1rem;
+  }
+  
+}
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -32,6 +468,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
