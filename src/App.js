@@ -65,20 +65,22 @@ function App() {
       </section>
 
       <section className='section2-margin'>
-        <div style={{
+        <div className='section2-direction' style={{
           display: 'flex',
-          flexDirection: 'row',
+
           justifyContent: 'space-evenly',
           alignContent: 'center',
+          alignItems: 'center',
           width: '100vw'
         }}>
-          <div className='section2-paragraph-sizing' 
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'flex-start',
-            alignItems: 'center'
-          }}>
+          <div className='section2-paragraph-sizing'
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+              rowGap: '0rem'
+            }}>
             <h1 className='text-blue'>OUR MISSION</h1>
             <p>Our aim is to help investors generate passive income through our tested arbitrage technology, packaged in an easy to use platform.</p>
             <p>We want to help bridge the gap between the world of cryptocurrency investing and traditional arbitrage. Allowing everyone to reap the benefits of Arbitrdr in the simplest way possible.</p>
@@ -86,29 +88,58 @@ function App() {
 
 
           <div className='section2-paragraph-sizing'
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'flex-start',
-            alignItems: 'center',
-          }}>
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'flex-start',
+              alignItems: 'center',
+            }}>
             <h1 className='text-blue'>OUR VISION</h1>
-            <p>Our aim is to help investors generate passive income through our tested arbitrage technology, packaged in an easy to use platform.</p>
-            <p>We want to help bridge the gap between the world of cryptocurrency investing and traditional arbitrage. Allowing everyone to reap the benefits of Arbitrdr in the simplest way possible.</p>
+            <p>We believe there is no need to invest
+              hundreds of thousands of dollars in hedge
+              funds, instead, through Arbitrdr we will
+              make quanitative trading accessible to all,
+              and strive to build more products to
+              reflect the market's needs.</p>
+            <p>Forward-thinking, we see ourselves as
+              true visionaries in the world of crypto
+              trading and we will continue to develop
+              smart trading products to help our users
+              generate maximum returns.
+            </p>
           </div>
         </div>
 
       </section>
 
-      <section >
+      <section className='section3-positioning'>
         <div className='section3-container'>
           <img className='section3-1-size' src={section3_part1}></img>
-          <img className='section3-2-size'  src={section3_part2}></img>
+          <img className='section3-2-size' src={section3_part2}></img>
 
         </div>
-        <div style={{ position: 'relative', width: '90vw' }}>
+        <div style={{ position: 'relative', width: '90vw', lineHeight: '1rem' }}>
 
-          <img style={{ position: 'absolute' }} className='section3-text-sizing section3-text-positioning' src={section3_text}></img>
+          <div style={{ textAlign: 'left', margin: 'auto 1rem', width: '100vw' }}>
+            <h2><span style={{ fontWeight: 'lighter' }}>THROUGH PREMIUM</span></h2>
+            <h1>STATE-OF-THE-ART TECHNOLOGY</h1>
+            <h2><span style={{ fontWeight: 'lighter' }}>CONSISTING OF AN</span></h2>
+            <h1>AUTOMATED ALGORITHM</h1>
+            <div style={{ lineHeight: '1.2rem', marginTop: '2.5rem' }}>
+              <p>Arbitrdr provides users with an <br />
+                exceptional trading platform involving an <br />
+                arbitrage approach for your Crypto trading journey.
+              </p>
+              <p>Fully automated, our platform does all the <br />
+                hard work on your behalf, seeking out the <br />
+                best possible arbitrage opportunities <br />
+                available in the Cryptocurreny market.
+              </p>
+            </div>
+
+          </div>
+
+
 
           <img style={{ position: 'absolute' }} className='section3-chart-sizing section3-chart-positioning' src={section3_chart}></img>
 
