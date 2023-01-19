@@ -8,6 +8,100 @@
 
 }
 
+
+
+@font-face {
+  font-family: Gotham;
+  src: url(./assets/fonts/Gotham-Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Gotham;
+  src: url(./assets/fonts/Gotham-Light.otf);
+  font-weight: light;
+}
+@media (min-width: 2500px) {
+  p {
+    font-family: Gotham;
+    font-weight: light;
+    font-size: 2rem;
+  }
+  h1 {
+    font-family: Gotham;
+    font-weight: bold;
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 2499px) {
+  p {
+    font-family: Gotham;
+    font-weight: light;
+    font-size: 1.5rem;
+    
+  }
+  
+  h1 {
+    font-family: Gotham;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+}
+
+@media (max-width: 1024px) {
+  p {
+    font-family: Gotham;
+    font-weight: light;
+    font-size: 1.3rem;
+    
+  }
+  
+  h1 {
+    font-family: Gotham;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  p {
+    font-family: Gotham;
+    font-weight: light;
+    font-size: 1rem;
+    
+  }
+  
+  h1 {
+    font-family: Gotham;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 425px) {
+  p {
+    font-family: Gotham;
+    font-weight: light;
+    font-size: 1rem;
+    
+  }
+  
+  h1 {
+    font-family: Gotham;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+}
+
+.text-blue {
+  color: rgba(34,151,229,255);
+}
+
+/*
+  Logo and background
+*/
+
 @media (max-width: 2560px) {
   .App {
     height: 4080px;
@@ -40,7 +134,30 @@
 
 @media (max-width: 425px) {
   .App {
-    height: 1300px;
+    height: 2600px;
+  }
+
+  .logo-div {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .App {
+    height: 2500px;
+    overflow-x: hidden;
+  }
+
+  .logo-div {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .App {
+    height: 1600px;
   }
 
   .logo-div {
@@ -80,6 +197,12 @@
 }
 
 
+
+/*
+  Section 1
+*/
+
+
 .monitor {
   width: 35vw;
   height: auto;
@@ -106,6 +229,10 @@
   height: auto;
   padding-left: 1rem;
 
+}
+
+.flex-direction {
+  flex-direction: row
 }
 
 @media (max-width: 1024px) {
@@ -164,60 +291,190 @@
     padding-left: 0.5rem;
 
   }
+
+  .flex-direction {
+    flex-direction: column
+  }
+}
+
+@media (max-width: 375px) {
+  .monitor {
+    width: 70vw;
+    height: auto;
+  }
+  .section1-text {
+    width: 65vw;
+    height: auto;
+  }
+  .loading-sizing {
+    width: 20vw;
+    height: auto;
+  }
+  .percent-sizing {
+    width: 9vw;
+    height: auto;
+  }
+  .percent-positioning {
+    top: 39%;
+    left: 29%;
+  }
+  .comingsoon-sizing {
+    width: 40vw;
+    height: auto;
+    padding-left: 0.5rem;
+
+  }
+
+  .flex-direction {
+    flex-direction: column
+  }
 }
 
 
-.section2-text-sizing {
-  width: 72vw;
-  height: auto;
 
-  margin-top: 9rem;
+
+/*
+  Section 2
+*/
+
+.section2-margin {
+  margin-top: 3rem;
+}
+
+.section2-paragraph-sizing {
+  width: 30vw;
 }
 
 @media (max-width: 1440px) {
-  .section2-text-sizing {
-    width: 72vw;
-    height: auto;
-  
-    margin-top: 8rem;
+  .section2-margin  {
+    margin-top: 4rem;
+  }
+  .section2-paragraph-sizing {
+    width: 40vw;
   }
 }
 
 @media (max-width: 1024px) {
-  .section2-text-sizing {
-    width: 92vw;
-    height: auto;
-  
-    margin-top: 10rem;
+  .section2-margin {
+    margin-top: 6rem;
+  }
+  .section2-paragraph-sizing {
+    width: 40vw;
   }
 }
 
 @media (max-width: 768px) {
-  .section2-text-sizing {
-    width: 90vw;
-    height: auto;
-  
-    margin-top: 6rem;
+  .section2-margin  {
+    margin-top: 3rem;
   }
 }
 
 @media (max-width: 425px) {
-  .section2-text-sizing {
-    width: 97vw;
-    height: auto;
-  
-    margin-top: 4rem;
+  .section2-margin  {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .section2-margin  {
+    margin-top: 5rem;
+  }
+  .section2-paragraph-sizing {
+    width: 45vw;
   }
 }
 
 @media (max-width: 320px) {
-  .section2-text-sizing {
-    width: 97vw;
-    height: auto;
-  
-    margin-top: 7rem;
+  .section2-margin  {
+    margin-top: 4rem;
   }
 }
+
+.section3-part1-sizing {
+  width: 200vw;
+}
+.section3-part1-positioning {
+  position: relative;
+  left: 30%;
+}
+
+.section3-part2-sizing {
+  width: 170vw;
+  
+}
+.section3-part2-positioning {
+  position: relative;
+  margin-left: -70vw;
+}
+
+.section3-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+@media (min-width: 426px) {
+  .section3-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10vw auto;
+    height: 50vw;
+    background-image: url(./assets/section3-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .section3-part1-sizing {
+    width: 30vw;
+    
+  }
+  .section3-part2-sizing {
+    width: 30vw;
+  }
+  .section3-1-size {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    display: none;
+  }
+  .section3-2-size {
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    position: absolute;
+    left: 10%;
+    display: none;
+
+  }
+}
+
+@media (max-width: 1024px) {
+  .section3-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    
+  }
+}
+
+@media (max-width: 425px) {
+  .section3-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10vw auto;
+  }
+
+  .section3-1-size {
+    width: 80vw;
+    margin-left: 30vw;
+  }
+  .section3-2-size {
+    width: 110vw;
+    margin-left: -10vw;
+  }
+}
+
 
 .section3-image-sizing {
   width: 90vw;
@@ -335,7 +592,7 @@
   }
   .section3-text-positioning {
     left: 5%;
-    margin-top: 1rem;
+    margin-top: 0rem;
   }
 
   .section3-chart-sizing {
@@ -344,6 +601,23 @@
   .section3-chart-positioning {
     left: 60%;
     margin-top: 8rem;
+  }
+
+  .section3-part1-sizing {
+    width: 200vw;
+  }
+  .section3-part1-positioning {
+    position: relative;
+    left: 30%;
+  }
+  
+  .section3-part2-sizing {
+    width: 170vw;
+    
+  }
+  .section3-part2-positioning {
+    position: relative;
+    margin-left: -70vw;
   }
 }
 
@@ -422,7 +696,7 @@
     height: auto;
   }
   .section4-text-positioning {
-    margin-top: 27rem;
+    margin-top: 24rem;
     margin-left: 3rem;
   }
   
@@ -440,14 +714,13 @@
   
 }
 
-
 @media (max-width: 425px) {
   .section4-text-sizing {
-    width: 60vw;
+    width: 80vw;
     height: auto;
   }
   .section4-text-positioning {
-    margin-top: 20rem;
+    margin-top: 23rem;
     margin-left: 1rem;
   }
   
