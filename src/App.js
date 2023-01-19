@@ -165,7 +165,7 @@ function App() {
             <p>The aim for our investors is to achieve
               impressive returns and grow passive income.
             </p>
-            <p>There's little for you to do except depesit
+            <p>There's little for you to do except deposit
               your funds and allow Arbitrdr to use its
               algorithm to find price discrepancies and
               capitalize pn these arbitrage opportunities.
