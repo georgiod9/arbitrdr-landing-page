@@ -114,18 +114,22 @@ function App() {
 
       <section className='section3-positioning'>
         <div className='section3-container'>
-          <img className='section3-1-size' src={section3_part1}></img>
-          <img className='section3-2-size' src={section3_part2}></img>
+
 
         </div>
+        <div className='section3-img-header'>
+          <img className='section3-1-size' src={section3_part1}></img>
+          <img className='section3-2-size' src={section3_part2}></img>
+        </div>
+        
         <div style={{ position: 'relative', width: '90vw', lineHeight: '1rem' }}>
 
-          <div style={{ textAlign: 'left', margin: 'auto 1rem', width: '100vw' }}>
+          <div className='section3-title-pos' style={{ textAlign: 'left', width: '100vw' }}>
             <h2><span style={{ fontWeight: 'lighter' }}>THROUGH PREMIUM</span></h2>
             <h1>STATE-OF-THE-ART TECHNOLOGY</h1>
             <h2><span style={{ fontWeight: 'lighter' }}>CONSISTING OF AN</span></h2>
             <h1>AUTOMATED ALGORITHM</h1>
-            <div style={{ lineHeight: '1.2rem', marginTop: '2.5rem' }}>
+            <div className='section3-text-sizing' style={{ marginTop: '2.5rem' }}>
               <p>Arbitrdr provides users with an <br />
                 exceptional trading platform involving an <br />
                 arbitrage approach for your Crypto trading journey.
@@ -139,20 +143,34 @@ function App() {
 
           </div>
 
-
-
           <img style={{ position: 'absolute' }} className='section3-chart-sizing section3-chart-positioning' src={section3_chart}></img>
 
         </div>
       </section>
 
-      <section>
+      <section className='section4-positioning'>
         <div style={{
           display: 'flex',
           flexDirection: 'row',
-          justifyContent: 'flex-start'
+          justifyContent: 'center'
         }}>
-          <img className='section4-text-sizing section4-text-positioning' src={section4_text}></img>
+          <div className='section4-title'>
+            <h1 className='section4-text-sizing' style={{ color: 'white' }}>LOW RISK & CONSISTENT<br />RETURNS ON YOUR<br />INITIAL INVESTMENT</h1>
+            <p>The intuitive Arbitrdr platform
+              simultaneously purschases an asset and sells
+              it in different markets - immediately
+              determining any price discrepancies,
+              generating the maximum profit for you.
+            </p>
+            <p>The aim for our investors is to achieve
+              impressive returns and grow passive income.
+            </p>
+            <p>There's little for you to do except depesit
+              your funds and allow Arbitrdr to use its
+              algorithm to find price discrepancies and
+              capitalize pn these arbitrage opportunities.
+            </p>
+          </div>
 
         </div>
       </section>
