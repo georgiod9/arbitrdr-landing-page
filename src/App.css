@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Gotham';
-  src: url(./assets/fonts/Gotham-Light.otf) format('opentype');
+  src: url(./assets/fonts/GothamLight.ttf) format('truetype');
   font-weight: light;
 }
 
