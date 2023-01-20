@@ -460,6 +460,7 @@
   .section2-margin {
     margin-top: 10rem;
     margin-bottom: 5rem;
+    line-height: 2.9rem;
   }
 
   .section2-paragraph-sizing {
@@ -471,6 +472,8 @@
 @media (max-width: 1440px) {
   .section2-margin {
     margin-top: 16rem;
+    line-height: 2.5rem;
+
   }
 
   .section2-paragraph-sizing {
@@ -482,6 +485,8 @@
 @media (max-width: 1024px) {
   .section2-margin {
     margin-top: 10rem;
+    line-height: 1.5rem;
+
   }
 
   .section2-paragraph-sizing {
@@ -492,6 +497,8 @@
 @media (max-width: 768px) {
   .section2-margin {
     margin-top: 6rem;
+    line-height: 1.2rem;
+
   }
 }
 
@@ -500,6 +507,8 @@
   .section2-margin {
     margin-top: 8rem;
     width: 100vw;
+    line-height: 1rem;
+
   }
 
   .section2-paragraph-sizing {
@@ -516,6 +525,8 @@
   .section2-margin {
     margin-top: 8rem;
     width: 100vw;
+    line-height: 1.1rem;
+
   }
 
   .section2-paragraph-sizing {
@@ -535,6 +546,8 @@
 @media (max-width: 320px) {
   .section2-margin {
     margin-top: 4rem;
+    line-height: 1rem;
+
   }
 }
 
@@ -1029,6 +1042,8 @@
     color: white;
     text-align: left;
     margin-top: 5rem;
+    line-height: 3.9rem;
+
   }
 
 
@@ -1050,6 +1065,7 @@
     color: white;
     text-align: left;
     margin-top: 7rem;
+    line-height: 2.3rem;
   }
 }
 
@@ -1070,6 +1086,8 @@
     color: white;
     text-align: left;
     margin-top: 3rem;
+    line-height: 1.9rem;
+
   }
 }
 
@@ -1084,7 +1102,8 @@
     width: 70vw;
     color: white;
     text-align: left;
-    margin-top: 3rem;
+    margin-top: 0rem;
+    line-height: 1.6rem;
   }
 
 }
@@ -1117,7 +1136,7 @@
   .section4-text-sizing {
     font-size: 2rem;
     width: 100vw;
-    overflow: hidden;
+    
   }
 
   .section4-text-positioning {
@@ -1131,6 +1150,7 @@
     text-align: left;
     margin-top: 7rem;
   }
+  
 
 }
 

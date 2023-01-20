@@ -129,7 +129,7 @@ function App() {
             <h1>STATE-OF-THE-ART TECHNOLOGY</h1>
             <h2><span style={{ fontWeight: 'lighter' }}>CONSISTING OF AN</span></h2>
             <h1>AUTOMATED ALGORITHM</h1>
-            <div className='section3-text-sizing' style={{ marginTop: '2.5rem' }}>
+            <div className='section3-text-sizing' style={{ marginTop: '1.2rem' }}>
               <p>Arbitrdr provides users with an <br />
                 exceptional trading platform involving an <br />
                 arbitrage approach for your Crypto trading journey.
@@ -168,7 +168,7 @@ function App() {
             <p>There's little for you to do except deposit
               your funds and allow Arbitrdr to use its
               algorithm to find price discrepancies and
-              capitalize pn these arbitrage opportunities.
+              capitalize on these arbitrage opportunities.
             </p>
           </div>
 
