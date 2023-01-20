@@ -1,25 +1,79 @@
 .App {
   text-align: center;
-  background-image: url('./assets/bg.png');
-  background-position: top;
-  background-size: 100% 100%;
+  height: max-content;
 
+ 
   width: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
+  
+}
+
+.section1-bg {
+  background-image: url('./assets/bg/bg_section1.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100vw 100%;
+
+  width: 100vw;
+  height: max-content;
+  padding-bottom: 1rem;
+
+}
+
+.section2-bg {
+  background-image: url('./assets/bg/bg_section2.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100vw 100%;
+
+  width: 100vw;
+  height: max-content;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+
 }
 
 
+.section3-bg {
+  background-image: url('./assets/bg/bg_section3.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100vw 100%;
+
+  width: 100vw;
+  height: max-content;
+  padding-bottom: 5rem;
+  padding-top: 1rem;
+}
+
+
+.section4-bg {
+  background-image: url('./assets/bg/bg_section4.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100vw 100%;
+
+  width: 100vw;
+  height: max-content;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+
+}
 
 @font-face {
   font-family: 'Gotham';
   src: url(./assets/fonts/GothamBold.ttf) format('truetype');
+  src: url(./assets/fonts/Gotham-Bold.otf) format('opentype');
+  font-weight: normal;
+
 }
 
 @font-face {
   font-family: 'Gotham';
   src: url(./assets/fonts/GothamLight.ttf) format('truetype');
-  font-weight: light;
+  src: url(./assets/fonts/Gotham-Light.otf) format('opentype');
+  font-weight: normal;
 }
 
 @font-face {
@@ -40,6 +94,11 @@
     font-family: 'Gotham';
     font-weight: bold;
     font-size: 4rem;
+  }
+  h2 {
+    font-family: 'Gotham';
+    font-weight: light;
+    font-size: 2.5rem;
   }
 }
 
@@ -129,40 +188,8 @@
   Logo and background
 */
 
-@media (max-width: 2560px) {
-  .App {
-    height: 4400px;
-  }
-}
-
-@media (max-width: 1920px) {
-  .App {
-    height: 3400px;
-  }
-}
-
-@media (max-width: 1440px) {
-  .App {
-    height: 3200px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .App {
-    height: 2400px;
-  }
-}
-
-@media (max-width: 768px) {
-  .App {
-    height: 2000px;
-  }
-}
-
 @media (max-width: 425px) {
-  .App {
-    height: 3500px;
-  }
+
 
   .logo-div {
     padding-top: 3rem;
@@ -171,10 +198,7 @@
 }
 
 @media (max-width: 375px) {
-  .App {
-    height: 3800px;
-    overflow-x: hidden;
-  }
+ 
 
   .logo-div {
     padding-top: 4rem;
@@ -183,9 +207,7 @@
 }
 
 @media (max-width: 320px) {
-  .App {
-    height: 1600px;
-  }
+
 
   .logo-div {
     padding-top: 3rem;
@@ -235,6 +257,8 @@
 
 .section1-positioning {
   margin-top: 0rem;
+  width: 100vw;
+
 }
 
 .monitor {
@@ -450,6 +474,7 @@
 
 .section2-margin {
   margin-top: 3rem;
+  
 }
 
 .section2-paragraph-sizing {
@@ -458,9 +483,10 @@
 
 @media (max-width: 2560px) {
   .section2-margin {
-    margin-top: 10rem;
-    margin-bottom: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     line-height: 2.9rem;
+    
   }
 
   .section2-paragraph-sizing {
@@ -471,7 +497,6 @@
 
 @media (max-width: 1440px) {
   .section2-margin {
-    margin-top: 16rem;
     line-height: 2.5rem;
 
   }
@@ -484,9 +509,7 @@
 
 @media (max-width: 1024px) {
   .section2-margin {
-    margin-top: 10rem;
     line-height: 1.5rem;
-
   }
 
   .section2-paragraph-sizing {
@@ -496,7 +519,6 @@
 
 @media (max-width: 768px) {
   .section2-margin {
-    margin-top: 6rem;
     line-height: 1.2rem;
 
   }
@@ -505,7 +527,6 @@
 
 @media (max-width: 425px) {
   .section2-margin {
-    margin-top: 8rem;
     width: 100vw;
     line-height: 1rem;
 
@@ -523,7 +544,6 @@
 
 @media (max-width: 375px) {
   .section2-margin {
-    margin-top: 8rem;
     width: 100vw;
     line-height: 1.1rem;
 
@@ -545,9 +565,7 @@
 
 @media (max-width: 320px) {
   .section2-margin {
-    margin-top: 4rem;
     line-height: 1rem;
-
   }
 }
 
@@ -581,6 +599,7 @@
     background-size: 75% auto;
     background-position: center;
     margin-top: 0rem;
+
   }
 
 
@@ -613,7 +632,9 @@
 }
 
 @media (max-width: 1440px) {
-
+  p {
+    font-size: 18px;
+  }
   .section3-container {
     display: flex;
     flex-direction: row;
@@ -621,17 +642,8 @@
     height: 50vw;
     background-image: url(./assets/section3-image.png);
     background-repeat: no-repeat;
-    background-size: 90% auto;
-    margin-top: 8rem;
+    background-size: 80vw auto;
   }
-
-
-
-  .section3-part1-sizing {
-    width: 30vw;
-
-  }
-
   .section3-part2-sizing {
     width: 30vw;
   }
@@ -668,7 +680,7 @@
     background-image: url(./assets/section3-image.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    margin-top: 6rem;
+    margin-top: 0rem;
   }
 
   .section3-part1-sizing {
@@ -699,15 +711,14 @@
 
 
 @media (max-width: 768px) {
+  
   .section3-container {
     display: flex;
     flex-direction: column;
     margin: auto auto;
-    margin-top: -3rem;
   }
 
   .section3-positioning {
-    margin-top: 5rem;
   }
 
   .section3-chart-sizing {
@@ -725,7 +736,6 @@
 @media (max-width: 425px) {
   p {
     font-family: 'Gotham-Light';
-    font-size: 15px;
     margin: 1rem auto;
   }
 
@@ -735,7 +745,7 @@
   }
 
   .section3-img-header {
-    
+    margin-top: 3rem;
   }
 
   .section3-1-size {
@@ -805,7 +815,7 @@
   }
 
   .section3-title-pos {
-    margin-top: -15rem;
+    margin-top: 0rem;
     margin-left: 20vw;
   }
 
@@ -822,7 +832,8 @@
   }
 
   .section3-text-sizing {
-    width: 45vw;
+    margin: 2rem 0.2rem;
+    width: 100vw;
   }
 
   .section3-text-positioning {
@@ -879,7 +890,7 @@
   }
 
   p {
-    font-size: 16px;
+    font-size: medium;
   }
 
   .section3-image-sizing {
@@ -914,6 +925,8 @@
 
   .section3-title-pos {
     margin-top: 1rem;
+    width: 92vw;
+    margin-left: 1.3rem;
   }
 
   .section3-positioning {
@@ -926,7 +939,7 @@
   }
 
   .section3-text-sizing {
-    width: 95vw;
+    width: 90vw;
   }
 
   .section3-text-positioning {
@@ -940,7 +953,7 @@
 
   .section3-chart-positioning {
     left: 60%;
-    margin-top: 18rem;
+    margin-top: 19rem;
   }
 
   .section3-part1-sizing {
@@ -965,7 +978,6 @@
 
 @media (max-width: 375px) {
   .section3-positioning {
-    margin-top: 6rem;
   }
 
   .section3-image-sizing {
@@ -1013,13 +1025,21 @@
 
   .section3-chart-positioning {
     left: 55%;
-    margin-top: 10rem;
+    margin-top: 24rem;
+  }
+
+  .section3-title-pos {
+    width: 90vw;
+    margin-left: 5px;
+  }
+
+  .section3-img-header {
   }
 }
 
 
 .section4-positioning {
-  margin-top: 4rem;
+  margin-top: 0rem;
 }
 
 .section4-title {
@@ -1120,14 +1140,13 @@
   }
 
   .section4-positioning {
-    margin-top: 13rem;
   }
 
   .section4-title {
     width: 70vw;
     color: white;
     text-align: left;
-    margin-top: 3rem;
+    margin-top: 6rem;
   }
 
 }
@@ -1156,7 +1175,7 @@
 
 @media (max-width: 320px) {
   .section4-text-sizing {
-    width: 60vw;
+    width: 95vw;
     height: auto;
   }
 

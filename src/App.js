@@ -12,6 +12,11 @@ import section3_chart from './assets/section3-chart.png';
 import section4_text from './assets/section4-text.png';
 import section3_part1 from './assets/section3-text1.png';
 import section3_part2 from './assets/section3-text2.png';
+import bg_section1 from './assets/bg/bg_section1.png';
+import bg_section2 from './assets/bg/bg_section2.png';
+import bg_section3 from './assets/bg/bg_section3.png';
+import bg_section4 from './assets/bg/bg_section4.png';
+
 
 import './App.css';
 
@@ -19,16 +24,14 @@ function App() {
   return (
     <div className="App">
 
-      <div className='logo-div' id='logo' >
-        <img className='logo' src={logo}></img>
 
 
-      </div>
-
-      <section className='section1-positioning'>
+      <section className='section1-bg section1-positioning'>
+        <div className='logo-div' id='logo' >
+          <img className='logo' src={logo}></img>
+        </div>
         <div className='flex-direction' style={{
           display: 'flex',
-
           justifyContent: 'center',
           alignItems: 'center',
           columnGap: '2rem'
@@ -64,7 +67,7 @@ function App() {
         </div>
       </section>
 
-      <section className='section2-margin'>
+      <section className='section2-bg section2-margin'>
         <div className='section2-direction' style={{
           display: 'flex',
 
@@ -112,7 +115,7 @@ function App() {
 
       </section>
 
-      <section className='section3-positioning'>
+      <section className='section3-bg section3-positioning'>
         <div className='section3-container'>
 
 
@@ -121,15 +124,15 @@ function App() {
           <img className='section3-1-size' src={section3_part1}></img>
           <img className='section3-2-size' src={section3_part2}></img>
         </div>
-        
+
         <div style={{ position: 'relative', width: '90vw', lineHeight: '1rem' }}>
 
-          <div className='section3-title-pos' style={{ textAlign: 'left', width: '100vw' }}>
+          <div className='section3-title-pos' style={{ textAlign: 'left' }}>
             <h2><span style={{ fontWeight: 'lighter' }}>THROUGH PREMIUM</span></h2>
             <h1>STATE-OF-THE-ART TECHNOLOGY</h1>
             <h2><span style={{ fontWeight: 'lighter' }}>CONSISTING OF AN</span></h2>
             <h1>AUTOMATED ALGORITHM</h1>
-            <div className='section3-text-sizing' style={{ marginTop: '1.2rem' }}>
+            <div className='section3-text-sizing'>
               <p>Arbitrdr provides users with an <br />
                 exceptional trading platform involving an <br />
                 arbitrage approach for your Crypto trading journey.
@@ -148,7 +151,7 @@ function App() {
         </div>
       </section>
 
-      <section className='section4-positioning'>
+      <section className='section4-bg section4-positioning'>
         <div style={{
           display: 'flex',
           flexDirection: 'row',
