@@ -177,6 +177,37 @@
   }
 }
 
+@media (max-width: 375px) {
+  p {
+    font-family: 'Gotham-Light';
+    font-weight: light;
+    font-size: 1rem;
+
+  }
+}
+@media (max-width: 320px) {
+  p {
+    font-family: 'Gotham-Light';
+    font-weight: light;
+    font-size: 10px;
+    line-height: 1.3rem;
+
+  }
+  h1 {
+    font-family: 'Gotham';
+    font-size: 1.8rem;
+    margin: 1rem auto;
+    line-height: 2rem;
+
+  }
+
+  h2 {
+    font-family: 'Gotham-Light';
+    font-size: 1.2rem;
+  }
+}
+
+
 .text-blue {
   color: rgba(34, 151, 229, 255);
 }
@@ -1041,6 +1072,7 @@
 
 .section4-title {
   width: 30vw;
+  
 }
 
 @media (max-width: 2560px) {

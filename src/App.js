@@ -133,13 +133,13 @@ function App() {
             <h2><span style={{ fontWeight: 'lighter' }}>CONSISTING OF AN</span></h2>
             <h1>AUTOMATED ALGORITHM</h1>
             <div className='section3-text-sizing'>
-              <p>Arbitrdr provides users with an <br />
-                exceptional trading platform involving an <br />
+              <p>Arbitrdr provides users with an 
+                exceptional trading platform involving an 
                 arbitrage approach for your Crypto trading journey.
               </p>
-              <p>Fully automated, our platform does all the <br />
-                hard work on your behalf, seeking out the <br />
-                best possible arbitrage opportunities <br />
+              <p>Fully automated, our platform does all the 
+                hard work on your behalf, seeking out the 
+                best possible arbitrage opportunities 
                 available in the Cryptocurreny market.
               </p>
             </div>
