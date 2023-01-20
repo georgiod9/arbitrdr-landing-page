@@ -18,7 +18,6 @@
   width: 100vw;
   height: max-content;
   padding-bottom: 1rem;
-
 }
 
 .section2-bg {
@@ -555,7 +554,7 @@
   }
 
   .section1-positioning {
-    margin-top: 6rem;
+    margin-top: 0rem;
   }
 
   .section2-direction {
