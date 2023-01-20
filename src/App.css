@@ -63,7 +63,6 @@
 @font-face {
   font-family: 'Gotham';
   src: url(./assets/fonts/GothamBold.ttf) format('truetype');
-  src: url(./assets/fonts/Gotham-Bold.otf) format('opentype');
   font-weight: normal;
 
 }
@@ -71,7 +70,6 @@
 @font-face {
   font-family: 'Gotham';
   src: url(./assets/fonts/GothamLight.ttf) format('truetype');
-  src: url(./assets/fonts/Gotham-Light.otf) format('opentype');
   font-weight: normal;
 }
 
